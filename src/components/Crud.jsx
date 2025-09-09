@@ -69,7 +69,7 @@ const Crud = () => {
           >
             Name: <strong>{user.name}</strong> <br />
             Age:{" "}
-            <strong>{user.age}</strong> <br /> Gender:{" "}
+            <strong>{user.age}</strong> <br />
             <button
               className="border mx-2 px-2 rounded-md bg-green-400"
               onClick={() => handleEdit(user)}
